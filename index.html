@@ -1,0 +1,344 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aqualate Pvt. Ltd.</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/png" href="/main-logo-nobg.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+
+<body>
+    <nav class="top-nav">
+        <img src="logo-nobg.png" class="nav-logo">
+        <div class="button" onclick=menu()><img src="menu.png" width="30px"></div>
+    </nav>
+
+    <div class="menu" id="menu" onclick="menu()">
+        <a href="#home">
+            <div class="side-nav-items">Home</div>
+        </a>
+        <a href="#about">
+            <div class="side-nav-items">About Us</div>
+        </a>
+        <a href="#projects">
+            <div class="side-nav-items">Projects</div>
+        </a>
+        <a href="#clients">
+            <div class="side-nav-items">Our Clients</div>
+        </a>
+        <a href="#footer">
+            <div class="side-nav-items">Brand</div>
+        </a>
+        <a href="#impact">
+            <div class="side-nav-items">Impact</div>
+        </a>
+        <a href="#contacts">
+            <div class="side-nav-items">Contacts</div>
+        </a>
+    </div>
+
+    <script>
+        var div = document.getElementById('menu');
+
+        function menu() {
+            if (div.classList.contains('show')) {
+                div.classList.remove('show');
+            } else {
+                div.classList.add('show');
+            }
+        }
+
+    </script>
+
+    <header id="home">
+        <div class="main-text">
+            <b>
+                BRAND CREATORS<br>
+                LOYALITY GENERATORS<br>
+                LEGACY MAKERS</b>
+        </div>
+    </header>
+    <section id="about">
+        <hr>
+        <div class="about-title">
+            <div class="about-title-left">BRAND BUILDERS</div>
+            <div class="small-circle-1"></div>
+        </div>
+        <div class="about-info">
+            <p> Aqualate Pvt. Ltd. is a 360° creative digital media organisation that unifies Talent Management, Video
+                Production, Music Production, Record Label, Photography, Audio & Video Distribution, Social Media
+                Management and Online Marketing under one roof. Conceptualised by Kowsik Bros. , we are an ensemble set
+                of young creators who specialise in all things digital.</p>
+            <img src="main-logo-nobg.png" class="about-logo">
+        </div>
+        <div class="about-btn">GREAT BRANDS ADD VALUES</div>
+    </section>
+
+    <section id="works">
+        <hr>
+        <div class="works-title">
+            <div class="works-title-left">OUR WORKS</div>
+            <div class="small-circle-2"></div>
+        </div>
+    </section>
+    <section id="projects">
+        <div class="projects-tokens-area">
+            <div class="projects-tokens">
+                <img src="audio.jpeg" class="projects-image">
+                <div class="projects-image-text">AUDIO & VIDEO PRODUCTION</div>
+                <div class="image-details">
+                    <div class="small-circle"></div>
+                    <div class="small-circle-text">Production</div>
+                </div>
+            </div>
+            <div class="projects-tokens">
+                <img src="image.jpeg" class="projects-image">
+                <div class="projects-image-text">MUSIC PRODUCTION</div>
+                <div class="image-details">
+                    <div class="small-circle"></div>
+                    <div class="small-circle-text">Production</div>
+                </div>
+            </div>
+            <div class="projects-tokens">
+                <img src="photo.jpeg" class="projects-image">
+                <div class="projects-image-text">PHOTOGRAPGHY</div>
+                <div class="image-details">
+                    <div class="small-circle"></div>
+                    <div class="small-circle-text">Production</div>
+                </div>
+            </div>
+            <div class="projects-tokens">
+                <img src="record.jpeg" class="projects-image">
+                <div class="projects-image-text">RECORD LABEL</div>
+                <div class="image-details">
+                    <div class="small-circle"></div>
+                    <div class="small-circle-text">Production</div>
+                </div>
+            </div>
+            <div class="projects-tokens">
+                <img src="social.jpeg" class="projects-image">
+                <div class="projects-image-text">SOCIAL MEDIA MANAGEMENT</div>
+                <div class="image-details">
+                    <div class="small-circle"></div>
+                    <div class="small-circle-text">Management</div>
+                </div>
+            </div>
+            <div class="projects-tokens">
+                <img src="talent.jpeg" class="projects-image">
+                <div class="projects-image-text">TALENT MANAGEMENT</div>
+                <div class="image-details">
+                    <div class="small-circle"></div>
+                    <div class="small-circle-text">Management</div>
+                </div>
+            </div>
+            <div class="projects-tokens">
+                <img src="video.jpeg" class="projects-image">
+                <div class="projects-image-text">VIDEO PRODUCTION</div>
+                <div class="image-details">
+                    <div class="small-circle"></div>
+                    <div class="small-circle-text">Production</div>
+                </div>
+            </div>
+            <div class="projects-tokens">
+                <img src="videography.jpeg" class="projects-image">
+                <div class="projects-image-text">VIDEOGRAPHY</div>
+                <div class="image-details">
+                    <div class="small-circle"></div>
+                    <div class="small-circle-text">Production</div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="clients">
+        <hr>
+        <div class="clients-title">
+            <div class="clients-title-left">OUR CLIENTS</div>
+            <div class="small-circle-3"></div>
+        </div>
+        <div class="clients-main-text">
+            A FEW OF <br>
+            OUR CLIENTS
+        </div>
+        <div class="clients-tokens-area">
+            <div class="clients-tokens">
+                <img src="bedr.jpg" class="clients-tokens-image">
+                <hr class="clients-tokens-hr">
+                <p class="clients-tokens-main-text">Bedr Amake</p>
+                <p class="clients-tokens-info">We try to make your imagination in reality</p>
+            </div>
+
+            <div class="clients-tokens">
+                <img src="bedronce.jpg" class="clients-tokens-image">
+                <hr class="clients-tokens-hr">
+                <p class="clients-tokens-main-text">Bedr Once</p>
+                <p class="clients-tokens-info">We try to make your imagination in reality</p>
+            </div>
+            <div class="clients-tokens">
+                <img src="feel.jpg" class="clients-tokens-image">
+                <hr class="clients-tokens-hr">
+                <p class="clients-tokens-main-text">Feel Vlogs</p>
+                <p class="clients-tokens-info">Visiting Beautiful World To Spread The Beauty Of Nature </p>
+            </div>
+
+            <div class="clients-tokens">
+                <img src="scam.png" class="clients-tokens-image">
+                <hr class="clients-tokens-hr">
+                <p class="clients-tokens-main-text">Scam Beats</p>
+                <p class="clients-tokens-info">Music Producer / Beat Maker
+                </p>
+            </div>
+
+        </div>
+    </section>
+
+    <footer id="footer">
+        <hr>
+        <div class="about-title">
+            <div class="about-title-left">BRAND BUILDERS</div>
+            <div class="small-circle-4"></div>
+        </div>
+
+        <div class="footer-tokens-area">
+            <div class="footer-tokens">
+                <p class="footer-tokens-main-text">
+                    WANT TO KNOW MORE ?
+                </p>
+                <p class="footer-tokens-info">
+                    We build relationships where your growth is our growth. We help you stay on target and squeeze as
+                    much out of your budget as possible.
+                </p>
+
+                <a href="mailto:teamaqualatepvtltd@gmail.com">
+                    <div class="about-btn" style="align-self: center;">Learn More</div>
+                </a>
+            </div>
+            <div class="footer-tokens">
+                <p class="footer-tokens-main-text">
+                    BRAND STRATEGY
+                </p>
+                <p class="footer-tokens-info">
+                    Great brands drive business growth, demand a premium, reduce risk and are living, appreciating
+                    assets. Create your own brand strategy with our step by step program.
+                </p>
+
+                <a href="mailto:teamaqualatepvtltd@gmail.com">
+                    <div class="about-btn" style="align-self: center;">Start Free Today</div>
+                </a>
+            </div>
+        </div>
+        <marquee>
+            <h1 class="moving-text">strategy, design, UI DESIGN, advertising, Packaging design, Content generation,
+                digital, outdoor,
+                product naming, branding, corporate identity, product development, packaging, product sourcing,
+                collateral, sales support, brochures, catalogues, flyers, design, mechanical artwork, international +
+                local print services, photography, CREATIVE direction.</h1>
+        </marquee>
+        <h1 id="impact">
+            seamless–powerful–effective</h1>
+
+        <div class="below-tokens-area">
+            <div class="below-tokens">
+                <p class="below-tokens-main-text">
+                    NO MARKETING DEPARTMENT
+                </p>
+                <p class="below-tokens-info">
+
+                    Why pay for expensive and overlapping consultants and then spend time managing them. Deal directly
+                    with senior people that will actually do the work.
+                </p>
+            </div>
+
+            <div class="below-tokens">
+                <p class="below-tokens-main-text">
+                    LEAN AND COST EFFECTIVE
+                </p>
+                <p class="below-tokens-info">
+
+                    Your growth is our growth. Stay on target and squeeze as much out of your budget as possible. Spend
+                    on what's effective - because when you do well, we do well.
+                </p>
+            </div>
+
+            <div class="below-tokens">
+                <p class="below-tokens-main-text">
+                    INNOVATE, GROW and ROAR
+                </p>
+                <p class="below-tokens-info">
+
+                    Powerful, single minded communication will fuel your growth. Thanks to our innovative thinking and
+                    in-depth knowledge, we build brands - giving them shape and form.
+                </p>
+            </div>
+
+            <div class="below-tokens">
+                <p class="below-tokens-main-text">
+                    DEVELOP A MASTERPLAN
+                </p>
+                <p class="below-tokens-info">
+
+                    Utilise Design Thinking to create your brand's masterplan. Extensive experience (and awards) equips
+                    us with the ability to create effective growth.
+                </p>
+            </div>
+        </div>
+        <hr>
+
+        <div class="below-tokens-area" id="contacts">
+            <div class="below-tokens">
+                <p class="below-tokens-main-text">
+                    Bihar<br>
+                    India
+                </p>
+            </div>
+
+            <div class="below-tokens">
+                <p class="below-tokens-main-text">
+                    Mon – Fri <br>
+                    9am – 4pm
+                </p>
+
+            </div>
+
+            <div class="below-tokens">
+                <p class="below-tokens-main-text">
+                    <a href="mailto:aqualatepvtltd@gmail.com"> aqualatepvtltd@gmail.com</a><br>
+                    <a href="mailto:teamaqualatepvtltd@gmail.com"> teamaqualatepvtltd@gmail.com</a>
+                </p>
+
+            </div>
+
+            <div class="below-tokens">
+                <p class="below-tokens-main-text">
+                    © Aqualate Pvt. Ltd.
+                </p>
+
+            </div>
+        </div>
+
+        <h3>Interested in learing more?</h3>
+        <div class="end-line">
+            <form>
+                <input type="email" placeholder="ENTER YOUR EMAIL TO SIGNUP">
+                <a href="mailto:aqualatepvtltd@gmail.com">
+                    <div class="email-button" style="background-color: black;">SUBMIT</div>
+                </a>
+            </form>
+            <div class="social-links">
+                <a href="https://www.youtube.com/@aqualateprivatelimited/featured" target="_blank" class="github"><i
+                        class="fab fa-youtube"></i></a>
+                <a href="https://www.instagram.com/aqualateprivatelimited/" target="_blank" class="instagram"><i
+                        class="fab fa-instagram" style="font-weight: bold;"></i></a>
+                <a href="https://www.issuewire.com/aqualate-pvt-ltd-media-company-1702528139492768" target="_blank"
+                    class="issuewire"><i class="far fa-address-card"></i></a>
+                <a href="google.com/search?q=Aqualate Pvt. Ltd." target="_blank"
+                    class="issuewire"><i class="fab fa-google"></i></a>
+            </div>
+        </div>
+    </footer>
+
+</body>
+
+</html>
