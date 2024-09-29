@@ -1,13 +1,13 @@
 :root {
     --black: black;
     --brown: #979086;
-    --bg: #e7e4dc;
+    --bg:  rgba(238, 238, 238, 1);
     --yellow: #cfd858;
     --green: #454e3e;
     --tomato: #ea6d57;
     --white-smoke: #e9e9e9;
     --white: white;
-    --nav: rgba(231, 228, 220, 0.7);
+    --nav: rgba(238, 238, 238, 0.7);
 }
 
 * {
