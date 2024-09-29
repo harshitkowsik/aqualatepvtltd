@@ -20,6 +20,10 @@ img{
 }
 
 
+.projects-image:hover{
+    filter: grayscale(0);
+}
+
 #projects{
     scroll-margin-top:100px ;
 }
