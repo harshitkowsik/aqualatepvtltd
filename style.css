@@ -361,7 +361,7 @@ hr {
 }
 
 .moving-text {
-    color: var(--brown);
+    color: grey;
     text-transform: uppercase;
 }
 
